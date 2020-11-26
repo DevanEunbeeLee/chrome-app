@@ -1,3 +1,6 @@
+.btn {
+    cursor: pointer;
+}
 body {
     background-color: gray;
     color: whitesmoke;
@@ -5,4 +8,27 @@ body {
 }
 h1 {
     font-size: 400px;
+}
+.js-form input {
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    background-color: transparent;
+    border-color: whitesmoke;
+    border-style: dashed;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.form,
+.greetings {
+    display: none;
+}
+.showing {
+    display: block;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-top: -220px;
+}
+.clicked {
+    color: whitesmoke;
 }
