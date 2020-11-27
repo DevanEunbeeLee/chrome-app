@@ -32,3 +32,17 @@ h1 {
 .clicked {
     color: whitesmoke;
 }
+.js-toDoForm input {
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    background-color: transparent;
+    border-color: whitesmoke;
+    border-style: dashed;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.js-toDoList {
+    font-size: 40px;
+    list-style-type: square;
+}
