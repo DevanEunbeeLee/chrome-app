@@ -5,9 +5,10 @@ body {
     background-color: gray;
     color: whitesmoke;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 h1 {
-    font-size: 400px;
+    font-size: 300px;
 }
 .js-form input {
     width: 500px;
@@ -45,4 +46,22 @@ h1 {
 .js-toDoList {
     font-size: 40px;
     list-style-type: square;
+}
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.js-fitbit {
+    width: 1000px;
+    height: 450px;
+    background-color: teal;
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: whitesmoke 3px;
 }
